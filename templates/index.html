@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <meta charset="UTF-8">
+        <title>What is your destiny?</title>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> 
+        <link rel="stylesheet" href="/static/css/main.css">    
+    </head>
+    <body>
+        
+        <section class="home">
+            <h6>/</h6>
+            <div class="home__block">
+                <div class="content">
+                    <header>
+                        <div class="header_logo">
+                            <p>Created<br>by with</p><span>ZINCHENKO</span>
+                        </div>
+
+                        <nav>
+                            <ul>
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#task">Task</a></li>
+                                <li><a href="http://math.cdu.edu.ua/?page_id=11178">MPT</a></li>
+                                <li><a href="#contacts">Contacts</a></li>
+                            </ul>
+                        </nav>
+                    </header>
+
+                    <div class="home__block__data">
+                        <div class="home__block__data__introducing">
+                            <h3>What is your destiny?</h3>
+                            <h2>Will you survive?</h2>
+                            <p>RMS Titanic was a British passenger liner that sank in the North Atlantic 
+                                Ocean in 1912 after the ship struck an iceberg during her maiden voyage from 
+                                Southampton to New York City. Of the estimated 2,224 passengers and crew aboard, 
+                                more than 1,500 died, making it one of modern history's deadliest peacetime 
+                                commercial marine disasters.
+                            </p>
+                            <a href="#task" class="block_1-btn" style="text-decoration: none;">Click here</a>
+                            <a href="#task" class="block_1-btn" style="text-decoration: none;">Click here</a>
+                        </div>
+                    
+                        <div class="form" id="form">
+                            <p>Fill out the form</p>
+                            <form action="" id="form_reset" >
+                                <input id="pclass" placeholder="Enter your class: 1, 2 or 3" type="number" name="pclass" min="1", max="3" required>
+                                <input id="age" placeholder="Enter age" type="number" min="1", max="100" name="age" required>
+                                <input id="sex" placeholder="Enter sex" type="text" name="sex" required>
+                                <input id="travel_alone" placeholder="You alone or not alone?" type="text" name="travel_alone" required>
+                                <button id="btn_form" type="submit">Submit</button>
+                            </form>
+                        
+                        </div>
+                    
+                        <div id="successAlert" class="aler" role="alert" style="display:none;"></div>
+	                    <div id="errorAlert" class="alert alert-danger" role="alert" style="display:none;"></div>
+
+                    </div>
+                </div>    
+            </div>      
+        </section>
+
+        <footer id="contacts">
+            <div class="footer content">
+                <p>Copyright © 2019 Misha Zinchenko</p>
+                <div class="footer__img">
+                    <a href="https://www.behance.net/"><img src="/static/img/behance.png" alt="Behance"></a>
+                    <a href="https://dribbble.com/"><img src="/static/img/dribbble.png" alt="Dribbble"></a>
+                    <a href="https://twitter.com/?lang=uk"><img src="/static/img/twitter.png" alt="Twitter"></a>
+                    <a href="https://www.facebook.com/"><img src="/static/img/facebook.png" alt="Facebook"></a>
+                    <a href="https://www.linkedin.com/"><img src="/static/img/linkedin.png" alt="LinkedIn"></a>
+                </div>
+            </div>    
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <script src="/static/js/main.js"></script>
+    </body>
+</html>
